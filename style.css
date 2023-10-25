@@ -70,6 +70,12 @@ button {
   border-radius: .6rem;
   color: #FFF;
   background-color: #A54328;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -103,9 +109,38 @@ button {
   button {
     width: 13.3rem;
     height: 4.5rem;
-    margin-top: 4.4rem;
+    margin-top: 2.4rem;
     font-size: 1.4rem;
     line-height: 2.4rem;
     border-radius: .8rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    display: flex;
+    justify-content: center;
+    column-gap: 18.9rem;
+    max-width: 100%;
+  }
+
+  .recipe {
+    max-width: 43.5rem;
+  }
+
+  .recipe img {
+    margin-inline: 0;
+  }
+
+  .ingredients {
+    max-width: 52.5rem;
+  }
+
+  .ingredients h2 {
+    margin: 0 0 5.1rem;
+  }
+
+  .ingredients ul {
+    margin-bottom: 2.4rem;
   }
 }
