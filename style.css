@@ -18,15 +18,6 @@ body {
 }
 
 main {
-  /* display: flex;
-  flex-direction: column;
-  row-gap: 3.4rem;
-  width: 100%;
-  max-width: 32rem;
-  margin-inline: auto;
-  padding: 5.4rem 3.8rem;
-  box-sizing: content-box; */
-
   width: 90%;
   max-width: 32rem;
   margin: 0 auto;
@@ -44,9 +35,6 @@ h2 {
 }
 
 img {
-  /* width: 100%;
-  margin-block: 4.6rem; */
-
   width: 100%;
   margin-block: 4.6rem;
 }
@@ -82,4 +70,42 @@ button {
   border-radius: .6rem;
   color: #FFF;
   background-color: #A54328;
+}
+
+@media (min-width: 768px) {
+  main {
+    width: 100%;
+    max-width: 52.5rem;
+    padding-block: 9.6rem;
+  }
+
+  h1, h2 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  img {
+    width: 43.5rem;
+    margin: 6.6rem 4.5rem;
+  }
+
+  p,
+  li,
+  strong {
+    font-size: 2rem;
+  }
+
+  ul,
+  ol {
+    padding-left: 2.8rem;
+  }
+
+  button {
+    width: 13.3rem;
+    height: 4.5rem;
+    margin-top: 4.4rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    border-radius: .8rem;
+  }
 }
