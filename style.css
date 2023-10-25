@@ -79,6 +79,11 @@ button:hover {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-image: url(./assets/background.jpg);
+
+  }
+  
   main {
     width: 100%;
     max-width: 52.5rem;
